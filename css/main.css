@@ -12,4 +12,23 @@
   font-display: swap;
   src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
 }
-
+header {
+  background-image: url("../module_3-homework_3-files/img/banner-bg.png");
+}
+main {
+  margin: 4%;
+}
+nav {
+  background-color: #ffe71e;
+  padding: 3% 0% 2% 5%;
+}
+nav ul li {
+  display: inline;
+}
+button {
+  background-color: #ffe71e;
+  border: none;
+  border-radius: 5px;
+  font-size: .8em;
+  padding: 1.5%;
+}
