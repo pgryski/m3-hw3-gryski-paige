@@ -2,10 +2,22 @@
 
 header {
     background-image: url("../module_3-homework_3-files/img/banner-bg.png");
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    img {
+        width: 40%;
+        margin: auto;
+    }
+    button {
+        width: 12%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
 }
 
 main {
-    margin: 4%;
+    margin: 5% 10% 0 10%;
 }
 
 nav {
@@ -13,6 +25,10 @@ nav {
     padding: 3% 0% 2% 5%;
     ul li {
         display: inline;
+        padding: 0 4% 0 0;
+        span {
+            color: red;
+        }
     }
 }
 
@@ -22,4 +38,8 @@ button {
     border-radius: 5px;
     font-size: .8em;
     padding: 1.5%;
+}
+
+footer {
+    background-color: black;
 }
