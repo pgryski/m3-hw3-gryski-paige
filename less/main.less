@@ -9,13 +9,27 @@
       display:block;
   }
 
+button {
+    background-color: @color-primary;
+    border: none;
+    border-radius: 5px;
+    font-size: .8em;
+    padding: 1.5%;
+    font-family: 'Roboto';
+}
+
+span {
+    color: red;
+}
+
 header {
     background-image: url("../module_3-homework_3-files/img/banner-bg.png");
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     img {
-        width: 40%;
+        width: 30%;
         margin: auto;
     }
     button {
@@ -25,40 +39,31 @@ header {
     }
 }
 
-body {
+.body {
     background-color: @color-primary;
 }
 
 main {
+    background-color: white;
+    font-family: 'Roboto';
     .whiterow {
-        background-color: white;
         padding: 4% 5% 4% 15%;
     }
     .grayrow {
         background-color: lightgray;
-        padding: 4% 5% 4% 15%;
+        .whiterow();
         margin-bottom: 5px;
     }
 }
 
 nav {
-    background-color: @color-primary;
-    padding: 3% 0% 2% 5%;
+    .body();
+    padding: 3% 0% 2% 8%;
+    font-family: 'Roboto';
     ul li {
         display: inline;
         padding: 0 4% 0 0;
-        span {
-            color: red;
-        }
     }
-}
-
-button {
-    background-color: @color-primary;
-    border: none;
-    border-radius: 5px;
-    font-size: .8em;
-    padding: 1.5%;
 }
 
 footer {

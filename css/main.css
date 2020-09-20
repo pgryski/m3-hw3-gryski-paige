@@ -30,14 +30,26 @@ section,
 summary {
   display: block;
 }
+button {
+  background-color: #ffe71e;
+  border: none;
+  border-radius: 5px;
+  font-size: .8em;
+  padding: 1.5%;
+  font-family: 'Roboto';
+}
+span {
+  color: red;
+}
 header {
   background-image: url("../module_3-homework_3-files/img/banner-bg.png");
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
 }
 header img {
-  width: 40%;
+  width: 30%;
   margin: auto;
 }
 header button {
@@ -45,11 +57,14 @@ header button {
   margin: auto;
   margin-bottom: 5%;
 }
-body {
+.body {
   background-color: #ffe71e;
 }
-main .whiterow {
+main {
   background-color: white;
+  font-family: 'Roboto';
+}
+main .whiterow {
   padding: 4% 5% 4% 15%;
 }
 main .grayrow {
@@ -59,21 +74,12 @@ main .grayrow {
 }
 nav {
   background-color: #ffe71e;
-  padding: 3% 0% 2% 5%;
+  padding: 3% 0% 2% 8%;
+  font-family: 'Roboto';
 }
 nav ul li {
   display: inline;
   padding: 0 4% 0 0;
-}
-nav ul li span {
-  color: red;
-}
-button {
-  background-color: #ffe71e;
-  border: none;
-  border-radius: 5px;
-  font-size: .8em;
-  padding: 1.5%;
 }
 footer {
   background-color: black;
