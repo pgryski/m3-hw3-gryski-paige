@@ -1,5 +1,14 @@
 @import "variables";
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+      display:block;
+  }
+
 header {
     background-image: url("../module_3-homework_3-files/img/banner-bg.png");
     background-size: contain;
@@ -16,8 +25,20 @@ header {
     }
 }
 
+body {
+    background-color: @color-primary;
+}
+
 main {
-    margin: 5% 10% 0 10%;
+    .whiterow {
+        background-color: white;
+        padding: 4% 5% 4% 15%;
+    }
+    .grayrow {
+        background-color: lightgray;
+        padding: 4% 5% 4% 15%;
+        margin-bottom: 5px;
+    }
 }
 
 nav {
@@ -41,5 +62,12 @@ button {
 }
 
 footer {
+    img {
+        width: 30%;
+        display: flex;
+        margin: auto;
+    }
     background-color: black;
+    border-color: @color-primary;
+    border-width: 10px;
 }
